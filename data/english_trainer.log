@@ -1,0 +1,860 @@
+2026-10-06 23:24:23 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-06 23:24:23 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-06 23:24:23 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-06 23:24:23 | INFO     | MainWindow | __init__:31 | Initializing MainWindow...
+2026-10-06 23:24:23 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-06 23:24:23 | INFO     | MainWindow | __init__:41 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-06 23:24:23 | INFO     | MainWindow | __init__:44 | AI Controller initialized
+2026-10-06 23:24:23 | INFO     | MainWindow | __init__:47 | Lesson Engine initialized with 9 lessons
+2026-10-06 23:24:23 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-06 23:24:23 | DEBUG    | MainWindow | _update_streak:114 | Streak updated: 1 days
+2026-10-06 23:24:23 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-06 23:24:28 | INFO     | LessonWidget | _start_lesson:114 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-06 23:24:28 | INFO     | LessonEngine | start_lesson:150 | Starting lesson: A1_GREETINGS
+2026-10-06 23:24:28 | INFO     | LessonEngine | start_lesson:164 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-06 23:24:28 | INFO     | LessonWidget | _start_lesson:135 | Lesson started: A1_GREETINGS (Greetings) - 5 questions
+2026-10-06 23:24:32 | INFO     | MainWindow | closeEvent:118 | Application closing...
+2026-10-06 23:24:32 | INFO     | MainWindow | closeEvent:120 | Database closed
+2026-10-07 13:04:27 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-07 13:04:27 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-07 13:04:27 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-07 13:04:27 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-07 13:04:27 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-07 13:04:27 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-07 13:04:27 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-07 13:04:27 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-07 13:04:27 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 9 lessons
+2026-10-07 13:04:27 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-07 13:04:27 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-07 13:04:28 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 1 days
+2026-10-07 13:04:28 | DEBUG    | MainWindow | _update_streak:160 | Streak updated: 1 days
+2026-10-07 13:04:28 | DEBUG    | MainWindow | _setup_shortcuts:109 | Setting up keyboard shortcuts
+2026-10-07 13:04:28 | INFO     | MainWindow | _setup_shortcuts:123 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-07 13:04:30 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-07 13:04:30 | WARNING  | MainWindow | _check_ai_connection:131 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-07 17:49:11 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-07 17:49:12 | INFO     | MainWindow | closeEvent:164 | Application closing...
+2026-10-07 17:49:12 | INFO     | MainWindow | closeEvent:166 | Database closed
+2026-10-27 15:15:15 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:15:15 | ERROR    | AIController | chat:51 | Ollama chat failed: Connection refused
+2026-10-27 15:15:15 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:15:15 | DEBUG    | AIController | chat:48 | Ollama response received, length=26
+2026-10-27 15:15:15 | ERROR    | AIController | chat:35 | Ollama Python package not installed
+2026-10-27 15:15:15 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent.wav
+2026-10-27 15:15:15 | ERROR    | AIController | transcribe:94 | Audio file not found: /tmp/test.wav
+2026-10-27 15:15:15 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpfevpcruu.db
+2026-10-27 15:15:15 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L0, level=A1, score=80.0, completed=True
+2026-10-27 15:15:15 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:15:15 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L2, level=A1, score=90.0, completed=True
+2026-10-27 15:15:15 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpw_fjw2e0.db
+2026-10-27 15:15:15 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 15 minutes
+2026-10-27 15:15:15 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 30 minutes
+2026-10-27 15:15:15 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp9vefckoq.db
+2026-10-27 15:15:15 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpau8irqa1.db
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpbqjne9u_.db
+2026-10-27 15:15:16 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpjf2mhv5b.db
+2026-10-27 15:15:16 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 10 minutes
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpj89_ldli.db
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpc9q6pql3.db
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpxw7wdg7f.db
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpx24fq7wl.db
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpz9dh4wkw.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: 
+2026-10-27 15:15:16 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: 
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmps07x1jxj.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: None
+2026-10-27 15:15:16 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: None
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp_x1fc34z.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: ANY_ID
+2026-10-27 15:15:16 | ERROR    | LessonEngine | start_lesson:69 | Lesson tree is empty - cannot start lesson
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpmoflwwzs.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpfl8a7s15.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:16 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:15:16 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:15:16 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_NUMBERS, level=A1, score=38.0, completed=True
+2026-10-27 15:15:16 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:15:16 | WARNING  | LessonEngine | submit_answer:108 | All questions already answered for lesson A1_NUMBERS
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp5l0gxn0m.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:170 | Empty answer submitted
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpr6j0qy5d.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:170 | Empty answer submitted
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp5dofms85.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['hello world']
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp580h7ull.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:195 | Answer matched partially: 'hello world today' contains 'hello world'
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp04wvbjlx.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'valid' == 'valid'
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmptjkoztfs.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:15:16 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmprcsoxcsy.db
+2026-10-27 15:15:16 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:16 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 2 words, accepted=True
+2026-10-27 15:15:16 | WARNING  | LessonEngine | load_lessons_from_json:32 | Lessons JSON not found at /nonexistent/path.json, using empty lessons
+2026-10-27 15:15:16 | ERROR    | LessonEngine | load_lessons_from_json:35 | Invalid JSON in lessons file: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-10-27 15:15:16 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['llama-3-8b-instruct:q4_k_m']
+2026-10-27 15:15:16 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['other-model']
+2026-10-27 15:15:16 | WARNING  | AIController | check_connection:63 | Requested model 'nonexistent-model' not found in Ollama
+2026-10-27 15:15:16 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Connection refused
+2026-10-27 15:15:17 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent/audio.wav
+2026-10-27 15:15:17 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmplfw7xpk6.db
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:15:17 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpu9lar_mf.db
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:15:17 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:15:17 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_NUMBERS, level=A1, score=38.0, completed=True
+2026-10-27 15:15:17 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:15:17 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpoekhgllc.db
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:15:17 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:15:17 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_NUMBERS, level=A1, score=38.0, completed=True
+2026-10-27 15:15:17 | DEBUG    | DBManager | add_activity:211 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:15:17 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp9iiu7ibi.db
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'x' vs expected ['good morning']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=48, expected=['good morning']
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hi' == 'hi'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'good morning' == 'good morning'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'привет' vs expected ['hello']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 5 words, accepted=True
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 0' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 1' vs expected ['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['fifteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 2' vs expected ['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['13', 'thirteen']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 3' vs expected ['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['twenty']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 4' vs expected ['twelve']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['twelve']
+2026-10-27 15:15:17 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=34.0, completed=True
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: NONEXISTENT
+2026-10-27 15:15:17 | WARNING  | LessonEngine | start_lesson:97 | Lesson not found: NONEXISTENT
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'привет' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'fifteen' == 'fifteen'
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['fifteen']
+2026-10-27 15:15:17 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:15:17 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:15:17 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=40, expected=['seven']
+2026-10-27 15:16:39 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:16:39 | ERROR    | AIController | chat:51 | Ollama chat failed: Connection refused
+2026-10-27 15:16:39 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:16:39 | DEBUG    | AIController | chat:48 | Ollama response received, length=26
+2026-10-27 15:16:39 | ERROR    | AIController | chat:35 | Ollama Python package not installed
+2026-10-27 15:16:39 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent.wav
+2026-10-27 15:16:39 | DEBUG    | AIController | transcribe:97 | Transcribing audio: /tmp/test.wav
+2026-10-27 15:16:39 | INFO     | AIController | _get_model:83 | Loading Whisper model: size=small, compute_type=int8
+2026-10-27 15:16:39 | INFO     | AIController | _get_model:89 | Whisper model loaded successfully
+2026-10-27 15:16:39 | DEBUG    | AIController | transcribe:102 | Transcription complete: 12 chars
+2026-10-27 15:16:39 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp3as8ixc1.db
+2026-10-27 15:16:39 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L0, level=A1, score=80.0, completed=True
+2026-10-27 15:16:39 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:16:39 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L2, level=A1, score=90.0, completed=True
+2026-10-27 15:16:39 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpr6o9bc_2.db
+2026-10-27 15:16:39 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 15 minutes
+2026-10-27 15:16:39 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 30 minutes
+2026-10-27 15:16:39 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpx1xbnug2.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpqkv4fr8u.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpe80lug72.db
+2026-10-27 15:16:40 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpai9afgw9.db
+2026-10-27 15:16:40 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 10 minutes
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpqo7uy531.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp8y7xc1z6.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpxg8l2jc0.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpsps4bug3.db
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp6iiz3iwi.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: 
+2026-10-27 15:16:40 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: 
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpq8bbzwkl.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: None
+2026-10-27 15:16:40 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: None
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpmzfm_0dc.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: ANY_ID
+2026-10-27 15:16:40 | ERROR    | LessonEngine | start_lesson:69 | Lesson tree is empty - cannot start lesson
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp9exetu78.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmptrhj9rtp.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:40 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:16:40 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:16:40 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_NUMBERS, level=A1, score=38.0, completed=True
+2026-10-27 15:16:40 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:16:40 | WARNING  | LessonEngine | submit_answer:108 | All questions already answered for lesson A1_NUMBERS
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpmlscit_r.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:170 | Empty answer submitted
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpn_e3bo1_.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:170 | Empty answer submitted
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp2193ezxj.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['hello world']
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpvb1_oc34.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:195 | Answer matched partially: 'hello world today' contains 'hello world'
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpwc040b9b.db
+2026-10-27 15:16:40 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:40 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'valid' == 'valid'
+2026-10-27 15:16:40 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpbsuy91zn.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:16:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpei25asvj.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 2 words, accepted=True
+2026-10-27 15:16:41 | WARNING  | LessonEngine | load_lessons_from_json:32 | Lessons JSON not found at /nonexistent/path.json, using empty lessons
+2026-10-27 15:16:41 | ERROR    | LessonEngine | load_lessons_from_json:35 | Invalid JSON in lessons file: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-10-27 15:16:41 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['llama-3-8b-instruct:q4_k_m']
+2026-10-27 15:16:41 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['other-model']
+2026-10-27 15:16:41 | WARNING  | AIController | check_connection:63 | Requested model 'nonexistent-model' not found in Ollama
+2026-10-27 15:16:41 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Connection refused
+2026-10-27 15:16:41 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent/audio.wav
+2026-10-27 15:16:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp5p6u57q7.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:16:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpi73lwuw8.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:16:41 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:16:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp1430js05.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:16:41 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:16:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp84nit_tt.db
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'x' vs expected ['good morning']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=48, expected=['good morning']
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'hi' == 'hi'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'good morning' == 'good morning'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'привет' vs expected ['hello']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 5 words, accepted=True
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:178 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 0' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 1' vs expected ['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['fifteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 2' vs expected ['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['13', 'thirteen']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 3' vs expected ['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['twenty']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'answer 4' vs expected ['twelve']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=34, expected=['twelve']
+2026-10-27 15:16:41 | INFO     | LessonEngine | submit_answer:148 | Saving lesson result: lesson_id=A1_NUMBERS, score=34.0, completed=True
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: NONEXISTENT
+2026-10-27 15:16:41 | WARNING  | LessonEngine | start_lesson:97 | Lesson not found: NONEXISTENT
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Greetings
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'привет' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:191 | Answer matched exactly: 'fifteen' == 'fifteen'
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=True, score=100, expected=['fifteen']
+2026-10-27 15:16:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:16:41 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | _evaluate_answer:204 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:16:41 | DEBUG    | LessonEngine | submit_answer:117 | Answer evaluation: correct=False, score=40, expected=['seven']
+2026-10-27 15:42:45 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:42:45 | ERROR    | AIController | chat:51 | Ollama chat failed: Connection refused
+2026-10-27 15:42:45 | DEBUG    | AIController | chat:38 | Sending request to Ollama: model=llama-3-8b-instruct
+2026-10-27 15:42:45 | DEBUG    | AIController | chat:48 | Ollama response received, length=26
+2026-10-27 15:42:45 | ERROR    | AIController | chat:35 | Ollama Python package not installed
+2026-10-27 15:42:45 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent.wav
+2026-10-27 15:42:45 | DEBUG    | AIController | transcribe:97 | Transcribing audio: /tmp/test.wav
+2026-10-27 15:42:45 | INFO     | AIController | _get_model:83 | Loading Whisper model: size=small, compute_type=int8
+2026-10-27 15:42:45 | INFO     | AIController | _get_model:89 | Whisper model loaded successfully
+2026-10-27 15:42:45 | DEBUG    | AIController | transcribe:102 | Transcription complete: 12 chars
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmptkyav615.db
+2026-10-27 15:42:46 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L0, level=A1, score=80.0, completed=True
+2026-10-27 15:42:46 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:42:46 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L2, level=A1, score=90.0, completed=True
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpsbkg9naz.db
+2026-10-27 15:42:46 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 15 minutes
+2026-10-27 15:42:46 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 30 minutes
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp5o_0rcm2.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpti19l90b.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpu1sw1823.db
+2026-10-27 15:42:46 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=L1, level=A1, score=85.0, completed=True
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmprloy6pk2.db
+2026-10-27 15:42:46 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 10 minutes
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp36mqwa1n.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpdbvu602q.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp0o5_dftk.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp007_e78d.db
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpc35qva_n.db
+2026-10-27 15:42:46 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:46 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: 
+2026-10-27 15:42:46 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: 
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpvou4oxqa.db
+2026-10-27 15:42:46 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:46 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: None
+2026-10-27 15:42:46 | ERROR    | LessonEngine | start_lesson:66 | Invalid lesson_id: None
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpbfizxrl6.db
+2026-10-27 15:42:46 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:46 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: ANY_ID
+2026-10-27 15:42:46 | ERROR    | LessonEngine | start_lesson:69 | Lesson tree is empty - cannot start lesson
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp472kfdmm.db
+2026-10-27 15:42:46 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:46 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:42:46 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpcdo_khe4.db
+2026-10-27 15:42:46 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:46 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:46 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:42:46 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:42:46 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:42:46 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_NUMBERS, level=A1, score=38.0, completed=True
+2026-10-27 15:42:47 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:42:47 | WARNING  | LessonEngine | submit_answer:108 | All questions already answered for lesson A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp1vufuf_e.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:176 | Empty answer submitted
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp9y_eup0k.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:176 | Empty answer submitted
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpdcc4i9mw.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'hello' vs expected ['hello world']
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpewzyj5sx.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:201 | Answer matched partially: 'hello world today' contains 'hello world'
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpmw_jgw25.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'valid' == 'valid'
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpqc0_uz28.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:184 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpe161eqbx.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:184 | Open-ended answer: 2 words, accepted=True
+2026-10-27 15:42:47 | WARNING  | LessonEngine | load_lessons_from_json:32 | Lessons JSON not found at /nonexistent/path.json, using empty lessons
+2026-10-27 15:42:47 | ERROR    | LessonEngine | load_lessons_from_json:35 | Invalid JSON in lessons file: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2026-10-27 15:42:47 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['llama-3-8b-instruct:q4_k_m']
+2026-10-27 15:42:47 | INFO     | AIController | check_connection:61 | Ollama connection OK, available models: ['other-model']
+2026-10-27 15:42:47 | WARNING  | AIController | check_connection:63 | Requested model 'nonexistent-model' not found in Ollama
+2026-10-27 15:42:47 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Connection refused
+2026-10-27 15:42:47 | ERROR    | AIController | transcribe:94 | Audio file not found: /nonexistent/audio.wav
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmplc7uq89y.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp__cd9bhh.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:42:47 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmpe_xwarv3.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer' vs expected ['twelve']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['twelve']
+2026-10-27 15:42:47 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_NUMBERS, score=38.0, completed=True
+2026-10-27 15:42:47 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\IKONNI~1\AppData\Local\Temp\tmp8cen_tig.db
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'x' vs expected ['good morning']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=48, expected=['good morning']
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'hello' == 'hello'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'hi' == 'hi'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'good morning' == 'good morning'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'привет' vs expected ['hello']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:184 | Open-ended answer: 5 words, accepted=True
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:184 | Open-ended answer: 1 words, accepted=False
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer 0' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=34, expected=['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer 1' vs expected ['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=34, expected=['fifteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer 2' vs expected ['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=34, expected=['13', 'thirteen']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer 3' vs expected ['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=34, expected=['twenty']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'answer 4' vs expected ['twelve']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=34, expected=['twelve']
+2026-10-27 15:42:47 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_NUMBERS, score=34.0, completed=True
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: NONEXISTENT
+2026-10-27 15:42:47 | WARNING  | LessonEngine | start_lesson:97 | Lesson not found: NONEXISTENT
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'привет' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['seven']
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | ERROR    | LessonEngine | submit_answer:104 | No active lesson when submitting answer
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'seven' == 'seven'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'fifteen' == 'fifteen'
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['fifteen']
+2026-10-27 15:42:47 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_NUMBERS
+2026-10-27 15:42:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Numbers 1-20
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'hello' vs expected ['seven']
+2026-10-27 15:42:47 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=40, expected=['seven']
+2026-10-27 15:44:06 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:44:07 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:44:07 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:44:07 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:44:07 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:44:07 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:44:07 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:44:07 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:44:07 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:44:07 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:44:07 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:44:07 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-27 15:44:07 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 0 days
+2026-10-27 15:44:07 | DEBUG    | MainWindow | _update_streak:174 | Streak updated: 0 days
+2026-10-27 15:44:07 | DEBUG    | MainWindow | _setup_shortcuts:123 | Setting up keyboard shortcuts
+2026-10-27 15:44:07 | INFO     | MainWindow | _setup_shortcuts:137 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-27 15:44:09 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:44:09 | WARNING  | MainWindow | _check_ai_connection:145 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:44:11 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-27 15:44:22 | INFO     | LessonWidget | _start_lesson:114 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:44:22 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:44:22 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:44:22 | INFO     | LessonWidget | _start_lesson:135 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:44:24 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Voice Chat (index 1)
+2026-10-27 15:44:25 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Progress & Stats (index 2)
+2026-10-27 15:44:26 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Voice Chat (index 1)
+2026-10-27 15:44:26 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Lessons (index 0)
+2026-10-27 15:44:26 | INFO     | LessonWidget | _restore_selector:77 | Restoring lesson selector
+2026-10-27 15:44:27 | INFO     | LessonWidget | _start_lesson:114 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:44:27 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:44:27 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:44:27 | INFO     | LessonWidget | _start_lesson:135 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:44:30 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Voice Chat (index 1)
+2026-10-27 15:44:30 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Lessons (index 0)
+2026-10-27 15:44:30 | INFO     | LessonWidget | _restore_selector:77 | Restoring lesson selector
+2026-10-27 15:44:34 | INFO     | MainWindow | closeEvent:189 | Application closing...
+2026-10-27 15:44:34 | INFO     | MainWindow | closeEvent:192 | Database closed
+2026-10-27 15:45:22 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:45:22 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:45:22 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:45:22 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:45:22 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:45:22 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:45:22 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:45:22 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:45:22 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:45:22 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:45:22 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:45:22 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-27 15:45:22 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 0 days
+2026-10-27 15:45:22 | DEBUG    | MainWindow | _update_streak:174 | Streak updated: 0 days
+2026-10-27 15:45:22 | DEBUG    | MainWindow | _setup_shortcuts:123 | Setting up keyboard shortcuts
+2026-10-27 15:45:22 | INFO     | MainWindow | _setup_shortcuts:137 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-27 15:45:24 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:45:24 | WARNING  | MainWindow | _check_ai_connection:145 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:45:26 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-27 15:45:29 | INFO     | LessonWidget | _start_lesson:115 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:45:29 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:45:29 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:45:29 | INFO     | LessonWidget | _start_lesson:136 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:45:35 | INFO     | MainWindow | closeEvent:189 | Application closing...
+2026-10-27 15:45:35 | INFO     | MainWindow | closeEvent:192 | Database closed
+2026-10-27 15:48:43 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:48:43 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:48:43 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:48:43 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:48:43 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:48:43 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:48:43 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:48:43 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:48:43 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:48:43 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:48:43 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:48:43 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-27 15:48:43 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 0 days
+2026-10-27 15:48:43 | DEBUG    | MainWindow | _update_streak:174 | Streak updated: 0 days
+2026-10-27 15:48:43 | DEBUG    | MainWindow | _setup_shortcuts:123 | Setting up keyboard shortcuts
+2026-10-27 15:48:43 | INFO     | MainWindow | _setup_shortcuts:137 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-27 15:48:45 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:48:45 | WARNING  | MainWindow | _check_ai_connection:145 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:48:48 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-27 15:48:49 | INFO     | LessonWidget | _start_lesson:110 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:48:49 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:48:49 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:48:49 | INFO     | LessonWidget | _start_lesson:131 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:49:15 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Voice Chat (index 1)
+2026-10-27 15:49:16 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Progress & Stats (index 2)
+2026-10-27 15:49:16 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Lessons (index 0)
+2026-10-27 15:49:16 | INFO     | LessonWidget | _restore_selector:80 | Restoring lesson selector
+2026-10-27 15:49:17 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Voice Chat (index 1)
+2026-10-27 15:49:17 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Progress & Stats (index 2)
+2026-10-27 15:49:18 | INFO     | MainWindow | _on_tab_changed:167 | Tab changed to: Lessons (index 0)
+2026-10-27 15:49:18 | INFO     | LessonWidget | _restore_selector:80 | Restoring lesson selector
+2026-10-27 15:49:21 | INFO     | LessonWidget | _start_lesson:110 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:49:21 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:49:21 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:49:21 | INFO     | LessonWidget | _start_lesson:131 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:49:30 | INFO     | MainWindow | closeEvent:189 | Application closing...
+2026-10-27 15:49:30 | INFO     | MainWindow | closeEvent:192 | Database closed
+2026-10-27 15:49:41 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:49:41 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:49:41 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:49:41 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:49:41 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:49:41 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:49:41 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:49:41 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:49:41 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:49:41 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:49:41 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:49:41 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-27 15:49:41 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 0 days
+2026-10-27 15:49:41 | DEBUG    | MainWindow | _update_streak:174 | Streak updated: 0 days
+2026-10-27 15:49:41 | DEBUG    | MainWindow | _setup_shortcuts:123 | Setting up keyboard shortcuts
+2026-10-27 15:49:41 | INFO     | MainWindow | _setup_shortcuts:137 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-27 15:49:43 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:49:43 | WARNING  | MainWindow | _check_ai_connection:145 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:49:45 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-27 15:49:47 | INFO     | LessonWidget | _start_lesson:110 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:49:47 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:49:47 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:49:47 | INFO     | LessonWidget | _start_lesson:131 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:50:00 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'Hi'
+2026-10-27 15:50:00 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'hi' == 'hi'
+2026-10-27 15:50:00 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['hi', 'hello', 'hey']
+2026-10-27 15:50:00 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 2/7)
+2026-10-27 15:50:09 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'good morning'
+2026-10-27 15:50:09 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'good morning' == 'good morning'
+2026-10-27 15:50:09 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['good morning']
+2026-10-27 15:50:09 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 3/7)
+2026-10-27 15:50:13 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'sdf7'
+2026-10-27 15:50:13 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'sdf7' vs expected ["i'm fine", 'fine', 'good', 'not bad', "i'm good", 'pretty good']
+2026-10-27 15:50:13 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=42, expected=["i'm fine", 'fine', 'good']
+2026-10-27 15:50:13 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +42 pts (question 4/7)
+2026-10-27 15:50:19 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'syu'
+2026-10-27 15:50:19 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'syu' vs expected ['bye', 'goodbye', 'see you', 'later']
+2026-10-27 15:50:19 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=44, expected=['bye', 'goodbye', 'see you']
+2026-10-27 15:50:19 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +44 pts (question 5/7)
+2026-10-27 15:50:23 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'good night'
+2026-10-27 15:50:23 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'good night' == 'good night'
+2026-10-27 15:50:23 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['good night']
+2026-10-27 15:50:23 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 6/7)
+2026-10-27 15:50:41 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'she dosn't like coffee'
+2026-10-27 15:50:41 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'she dosn't like coffee' vs expected ["she doesn't like coffee", "she doesn't likes coffee"]
+2026-10-27 15:50:41 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=6, expected=["she doesn't like coffee", "she doesn't likes coffee"]
+2026-10-27 15:50:42 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +6 pts (question 7/7)
+2026-10-27 15:51:11 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'i'am agree with you'
+2026-10-27 15:51:11 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'i'am agree with you' vs expected ['i agree with you', "i'm agree with you is wrong", 'i agree']
+2026-10-27 15:51:11 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=12, expected=['i agree with you', "i'm agree with you is wrong", 'i agree']
+2026-10-27 15:51:11 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_GREETINGS, score=57.7, completed=True
+2026-10-27 15:51:11 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_GREETINGS, level=A1, score=57.7, completed=True
+2026-10-27 15:51:11 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 7 minutes
+2026-10-27 15:51:11 | INFO     | LessonWidget | _submit_answer:221 | Lesson completed! Final score: 57.7/100
+2026-10-27 15:51:20 | INFO     | LessonWidget | _start_lesson:110 | Attempting to start lesson: level=A1, topic=Introductions
+2026-10-27 15:51:20 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_INTRO
+2026-10-27 15:51:20 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 5 questions, level=A1, topic=Introductions
+2026-10-27 15:51:20 | INFO     | LessonWidget | _start_lesson:131 | Lesson started: A1_INTRO (Introductions) - 5 questions
+2026-10-27 15:51:30 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'my name Ivan'
+2026-10-27 15:51:30 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'my name ivan' vs expected ['my name is ivan', "i'm ivan", 'i am ivan']
+2026-10-27 15:51:30 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=26, expected=['my name is ivan', "i'm ivan", 'i am ivan']
+2026-10-27 15:51:30 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +26 pts (question 2/5)
+2026-10-27 15:51:36 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'what is your name'
+2026-10-27 15:51:36 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'what is your name' == 'what is your name'
+2026-10-27 15:51:36 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=["what's your name", 'what is your name']
+2026-10-27 15:51:37 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 3/5)
+2026-10-27 15:51:41 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'me too'
+2026-10-27 15:51:41 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'me too' vs expected ['nice to meet you too', 'nice to meet you', 'pleased to meet you']
+2026-10-27 15:51:41 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=38, expected=['nice to meet you too', 'nice to meet you', 'pleased to meet you']
+2026-10-27 15:51:41 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +38 pts (question 4/5)
+2026-10-27 15:51:50 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'i'm 25 old'
+2026-10-27 15:51:50 | DEBUG    | LessonEngine | _evaluate_answer:201 | Answer matched partially: 'i'm 25 old' contains 'i'm 25'
+2026-10-27 15:51:50 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=["i'm 25", 'i am 25', "i'm twenty five"]
+2026-10-27 15:51:50 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 5/5)
+2026-10-27 15:51:56 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'i'm from russia'
+2026-10-27 15:51:56 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'i'm from russia' == 'i'm from russia'
+2026-10-27 15:51:56 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=["i'm from russia", 'i am from russia', 'i come from russia']
+2026-10-27 15:51:56 | INFO     | LessonEngine | submit_answer:149 | Saving lesson result: lesson_id=A1_INTRO, score=72.8, completed=True
+2026-10-27 15:51:56 | INFO     | DBManager | save_lesson_result:122 | Saving lesson result: lesson=A1_INTRO, level=A1, score=72.8, completed=True
+2026-10-27 15:51:56 | DEBUG    | DBManager | add_activity:214 | Adding activity: 2026-10-27, 5 minutes
+2026-10-27 15:51:56 | INFO     | LessonWidget | _submit_answer:221 | Lesson completed! Final score: 72.8/100
+2026-10-27 15:52:10 | INFO     | LessonWidget | _start_lesson:110 | Attempting to start lesson: level=A1, topic=Colors
+2026-10-27 15:52:10 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_COLORS
+2026-10-27 15:52:10 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 10 questions, level=A1, topic=Colors
+2026-10-27 15:52:10 | INFO     | LessonWidget | _start_lesson:131 | Lesson started: A1_COLORS (Colors) - 10 questions
+2026-10-27 15:52:13 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'red'
+2026-10-27 15:52:13 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'red' == 'red'
+2026-10-27 15:52:13 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['red']
+2026-10-27 15:52:13 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 2/10)
+2026-10-27 15:52:16 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'blue'
+2026-10-27 15:52:16 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'blue' == 'blue'
+2026-10-27 15:52:16 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['blue']
+2026-10-27 15:52:16 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 3/10)
+2026-10-27 15:52:19 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'green'
+2026-10-27 15:52:19 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'green' == 'green'
+2026-10-27 15:52:19 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['green']
+2026-10-27 15:52:19 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 4/10)
+2026-10-27 15:52:22 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'yelow'
+2026-10-27 15:52:22 | DEBUG    | LessonEngine | _evaluate_answer:221 | Answer not matched: 'yelow' vs expected ['yellow']
+2026-10-27 15:52:22 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=False, score=40, expected=['yellow']
+2026-10-27 15:52:22 | INFO     | LessonWidget | _submit_answer:242 | Answer ✗: +40 pts (question 5/10)
+2026-10-27 15:52:26 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'black'
+2026-10-27 15:52:26 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'black' == 'black'
+2026-10-27 15:52:26 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['black']
+2026-10-27 15:52:26 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 6/10)
+2026-10-27 15:52:29 | INFO     | LessonWidget | _submit_answer:212 | User submitted answer: 'white'
+2026-10-27 15:52:29 | DEBUG    | LessonEngine | _evaluate_answer:197 | Answer matched exactly: 'white' == 'white'
+2026-10-27 15:52:29 | DEBUG    | LessonEngine | submit_answer:118 | Answer evaluation: correct=True, score=100, expected=['white']
+2026-10-27 15:52:29 | INFO     | LessonWidget | _submit_answer:242 | Answer ✓: +100 pts (question 7/10)
+2026-10-27 15:52:33 | INFO     | MainWindow | closeEvent:189 | Application closing...
+2026-10-27 15:52:33 | INFO     | MainWindow | closeEvent:192 | Database closed
+2026-10-27 15:53:38 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:53:38 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:53:38 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:53:38 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:53:38 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:53:38 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:53:38 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:53:38 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:53:38 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:53:38 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:53:38 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:54:32 | WARNING  | VoiceChatWidget | <module>:38 | PyAudio not available — microphone recording will fall back to text input
+2026-10-27 15:54:32 | INFO     | EnglishTrainer.main | main:12 | ============================================================
+2026-10-27 15:54:32 | INFO     | EnglishTrainer.main | main:13 | English Trainer starting...
+2026-10-27 15:54:32 | INFO     | EnglishTrainer.main | main:14 | Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+2026-10-27 15:54:32 | INFO     | MainWindow | __init__:32 | Initializing MainWindow...
+2026-10-27 15:54:32 | INFO     | DBManager | __init__:22 | Initializing DBManager: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:54:32 | INFO     | MainWindow | __init__:42 | Database initialized: C:\Users\ikonnikov\IdeaProjects\englishTrainer\data\lessons.db
+2026-10-27 15:54:32 | INFO     | MainWindow | __init__:45 | AI Controller initialized
+2026-10-27 15:54:32 | INFO     | LessonEngine | load_lessons_from_json:29 | Lessons loaded from JSON: 4 levels
+2026-10-27 15:54:32 | INFO     | MainWindow | __init__:48 | Lesson Engine initialized with 20 lessons
+2026-10-27 15:54:32 | INFO     | LessonWidget | __init__:30 | Initializing LessonWidget...
+2026-10-27 15:54:32 | INFO     | ProgressWidget | __init__:36 | Initializing ProgressWidget...
+2026-10-27 15:54:32 | DEBUG    | ProgressWidget | _update_streak:91 | Streak: 1 days
+2026-10-27 15:54:32 | DEBUG    | MainWindow | _update_streak:174 | Streak updated: 1 days
+2026-10-27 15:54:32 | DEBUG    | MainWindow | _setup_shortcuts:123 | Setting up keyboard shortcuts
+2026-10-27 15:54:32 | INFO     | MainWindow | _setup_shortcuts:137 | Keyboard shortcuts configured: Ctrl+1=Lessons, Ctrl+2=Voice Chat, Ctrl+3=Progress
+2026-10-27 15:54:34 | ERROR    | AIController | check_connection:67 | Ollama connection check failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:54:34 | WARNING  | MainWindow | _check_ai_connection:145 | Ollama connection issue: Cannot connect to Ollama at http://localhost:11434: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-10-27 15:54:37 | INFO     | EnglishTrainer.main | main:23 | Application launched successfully
+2026-10-27 15:54:38 | INFO     | LessonWidget | _start_lesson:112 | Attempting to start lesson: level=A1, topic=Greetings
+2026-10-27 15:54:38 | INFO     | LessonEngine | start_lesson:64 | Starting lesson: A1_GREETINGS
+2026-10-27 15:54:38 | INFO     | LessonEngine | start_lesson:88 | Lesson initialized: 7 questions, level=A1, topic=Greetings
+2026-10-27 15:54:38 | INFO     | LessonWidget | _start_lesson:133 | Lesson started: A1_GREETINGS (Greetings) - 7 questions
+2026-10-27 15:54:41 | INFO     | MainWindow | closeEvent:189 | Application closing...
+2026-10-27 15:54:41 | INFO     | MainWindow | closeEvent:192 | Database closed

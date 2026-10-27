@@ -1,0 +1,10 @@
+PyQt6>=6.5.0
+ollama>=0.2.0
+faster-whisper>=1.0.0
+kokoro-onnx>=0.2.0
+onnxruntime>=1.16.0
+pyqtgraph>=0.13.0
+numpy>=1.24.0
+soundfile>=0.12.1
+pydub>=0.25.1
+PyAudio>=0.2.14

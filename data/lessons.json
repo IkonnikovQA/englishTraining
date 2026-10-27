@@ -1,0 +1,289 @@
+{
+    "A1": {
+        "Greetings": {
+            "id": "A1_GREETINGS",
+            "theory": "В английском языке приветствия зависят от времени суток и формальности ситуации. 'Hello' — универсальное приветствие, 'Hi' — неформальное, 'Good morning' — до обеда.",
+            "questions": [
+                {"q": "Как сказать 'Привет' по-английски в неформальной ситуации?", "answers": ["hi", "hello", "hey"]},
+                {"q": "Переведите: 'Доброе утро'.", "answers": ["good morning"]},
+                {"q": "Как ответить на 'How are you?' в неформальной беседе?", "answers": ["i'm fine", "fine", "good", "not bad", "i'm good", "pretty good"]},
+                {"q": "Как сказать 'До свидания' неформально?", "answers": ["bye", "goodbye", "see you", "later"]},
+                {"q": "Напишите 'Хорошей ночи' на английском.", "answers": ["good night"]},
+                {"q": "Найдите ошибку: 'She don't like coffee.' — исправьте.", "answers": ["she doesn't like coffee", "she doesn't likes coffee"], "type": "error-correction"},
+                {"q": "Найдите ошибку: 'I am agree with you.' — исправьте.", "answers": ["i agree with you", "i'm agree with you is wrong", "i agree"], "type": "error-correction"}
+            ]
+        },
+        "Introductions": {
+            "id": "A1_INTRO",
+            "theory": "При знакомстве используют: 'My name is...' или 'I'm...'. Вопрос: 'What's your name?'. После знакомства: 'Nice to meet you'.",
+            "questions": [
+                {"q": "Как сказать 'Меня зовут Иван'?", "answers": ["my name is ivan", "i'm ivan", "i am ivan"]},
+                {"q": "Как спросить 'Как тебя зовут?'?", "answers": ["what's your name", "what is your name"]},
+                {"q": "Что ответить на 'Nice to meet you'?", "answers": ["nice to meet you too", "nice to meet you", "pleased to meet you"]},
+                {"q": "Переведите: 'Мне 25 лет'.", "answers": ["i'm 25", "i am 25", "i'm twenty five", "i am twenty five"]},
+                {"q": "Как сказать 'Я из России'?", "answers": ["i'm from russia", "i am from russia", "i come from russia"]}
+            ]
+        },
+        "Numbers 1-20": {
+            "id": "A1_NUMBERS",
+            "theory": "Основные числа: one (1), two (2), three (3), four (4), five (5), six (6), seven (7), eight (8), nine (9), ten (10).",
+            "questions": [
+                {"q": "Как будет число 7 по-английски?", "answers": ["seven"]},
+                {"q": "Напишите число 15 словами на английском.", "answers": ["fifteen"]},
+                {"q": "Сколько будет 'thirteen'?", "answers": ["13", "thirteen"]},
+                {"q": "Как будет 20 по-английски?", "answers": ["twenty"]},
+                {"q": "Назовите число 12 словами.", "answers": ["twelve"]}
+            ]
+        },
+        "Colors": {
+            "id": "A1_COLORS",
+            "theory": "Основные цвета: red (красный), blue (синий), green (зелёный), yellow (жёлтый), black (чёрный), white (белый), orange (оранжевый), purple (фиолетовый), pink (розовый), brown (коричневый).",
+            "questions": [
+                {"q": "Как сказать 'красный' по-английски?", "answers": ["red"]},
+                {"q": "Переведите: 'синий'.", "answers": ["blue"]},
+                {"q": "Как будет 'зелёный' по-английски?", "answers": ["green"]},
+                {"q": "Напишите 'жёлтый' на английском.", "answers": ["yellow"]},
+                {"q": "Как сказать 'чёрный' по-английски?", "answers": ["black"]},
+                {"q": "Переведите: 'белый'.", "answers": ["white"]},
+                {"q": "Как будет 'оранжевый' по-английски?", "answers": ["orange"]},
+                {"q": "Напишите 'фиолетовый' на английском.", "answers": ["purple"]},
+                {"q": "Как сказать 'розовый' по-английски?", "answers": ["pink"]},
+                {"q": "Переведите: 'коричневый'.", "answers": ["brown"]}
+            ]
+        },
+        "Family": {
+            "id": "A1_FAMILY",
+            "theory": "Семья: mother/mom (мать), father/dad (отец), sister (сестра), brother (брат), son (сын), daughter (дочь), grandparents (бабушка и дедушка), parents (родители), uncle (дядя), aunt (тётя), cousin (двоюродный брат/сестра).",
+            "questions": [
+                {"q": "Как сказать 'мать' по-английски?", "answers": ["mother", "mom", "mum"]},
+                {"q": "Переведите: 'отец'.", "answers": ["father", "dad"]},
+                {"q": "Как будет 'сестра' по-английски?", "answers": ["sister"]},
+                {"q": "Напишите 'брат' на английском.", "answers": ["brother"]},
+                {"q": "Как сказать 'сын' по-английски?", "answers": ["son"]},
+                {"q": "Переведите: 'дочь'.", "answers": ["daughter"]},
+                {"q": "Как будет 'родители' по-английски?", "answers": ["parents"]},
+                {"q": "Напишите 'бабушка' на английском.", "answers": ["grandmother", "grandma"]},
+                {"q": "Как сказать 'дедушка' по-английски?", "answers": ["grandfather", "grandpa"]},
+                {"q": "Переведите: 'дядя'.", "answers": ["uncle"]}
+            ]
+        },
+        "Days & Months": {
+            "id": "A1_DAYS_MONTHS",
+            "theory": "Дни недели: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Месяцы: January, February, March, April, May, June, July, August, September, October, November, December.",
+            "questions": [
+                {"q": "Как будет 'понедельник' по-английски?", "answers": ["monday"]},
+                {"q": "Напишите 'вторник' на английском.", "answers": ["tuesday"]},
+                {"q": "Как сказать 'среда' по-английски?", "answers": ["wednesday"]},
+                {"q": "Переведите: 'четверг'.", "answers": ["thursday"]},
+                {"q": "Как будет 'пятница' по-английски?", "answers": ["friday"]},
+                {"q": "Напишите 'суббота' на английском.", "answers": ["saturday"]},
+                {"q": "Как сказать 'воскресенье' по-английски?", "answers": ["sunday"]},
+                {"q": "Переведите: 'январь'.", "answers": ["january"]},
+                {"q": "Как будет 'декабрь' по-английски?", "answers": ["december"]},
+                {"q": "Напишите 'май' на английском.", "answers": ["may"]}
+            ]
+        }
+    },
+    "A2": {
+        "Present Simple": {
+            "id": "A2_PRESENT_SIMPLE",
+            "theory": "Present Simple используется для регулярных действий и фактов. Формула: подлежащее + глагол (he/she/it + s). Отрицание: do not/does not + глагол.",
+            "questions": [
+                {"q": "Поставьте глагол в Present Simple: She (go) to school every day.", "answers": ["goes"]},
+                {"q": "Составьте отрицание: I (like) coffee.", "answers": ["i don't like coffee", "i do not like coffee", "don't like", "do not like"]},
+                {"q": "Спросите: 'Ты играешь на гитаре?'", "answers": ["do you play guitar", "do you play the guitar"]},
+                {"q": "Переведите: 'Он работает в офисе'.", "answers": ["he works in the office", "he works at the office"]},
+                {"q": "Поставьте глагол: They (not/watch) TV in the morning.", "answers": ["they don't watch tv", "they do not watch tv", "don't watch", "do not watch"]},
+                {"q": "Найдите ошибку: 'He don't play football.' — исправьте.", "answers": ["he doesn't play football", "he does not play football"], "type": "error-correction"},
+                {"q": "Найдите ошибку: 'She go to school every day.' — исправьте.", "answers": ["she goes to school every day"], "type": "error-correction"}
+            ]
+        },
+        "Food & Restaurant": {
+            "id": "A2_FOOD",
+            "theory": "В ресторане используют: 'I would like...', 'Can I have...', 'Could I get...'. Порядок: заказ, основные блюда, десерты, счёт.",
+            "questions": [
+                {"q": "Как вежливо заказать кофе в ресторане?", "answers": ["i would like coffee", "can i have coffee", "could i get coffee", "i'll have coffee"]},
+                {"q": "Переведите: 'Мне нужен счёт, пожалуйста'.", "answers": ["the bill please", "the check please", "can i have the bill", "could i have the check"]},
+                {"q": "Спросите официанта: 'Какой сегодня суп?'", "answers": ["what soup do you have", "what is the soup of the day", "what's the soup of the day"]},
+                {"q": "Как сказать 'Я вегетарианец'?", "answers": ["i'm a vegetarian", "i am a vegetarian"]},
+                {"q": "Напишите: 'Я бы хотел стейк'.", "answers": ["i would like a steak", "i'll have a steak", "can i have a steak"]}
+            ]
+        },
+        "Past Simple (Regular)": {
+            "id": "A2_PAST_SIMPLE_REG",
+            "theory": "Past Simple для правильных глаголов: добавляем -ed (play→played, work→worked). Исключения: заканчивающиеся на e → только -d (love→loved), согласная+y → y→ied (study→studied).",
+            "questions": [
+                {"q": "Поставьте в Past Simple: I (play) football yesterday.", "answers": ["played"]},
+                {"q": "Переведите: 'Она работала вчера'.", "answers": ["she worked yesterday", "she worked"]},
+                {"q": "Past Simple от 'watch':", "answers": ["watched"]},
+                {"q": "Поставьте в Past Simple: We (live) in Moscow in 2020.", "answers": ["lived"]},
+                {"q": "Past Simple от 'study':", "answers": ["studied"]},
+                {"q": "Переведите: 'Я звонил тебе'.", "answers": ["i called you", "i called you", "i phoned you"]},
+                {"q": "Поставьте в Past Simple: She (visit) her grandma last week.", "answers": ["she visited", "visited"]},
+                {"q": "Past Simple от 'love':", "answers": ["loved"]},
+                {"q": "Переведите: 'Мы играли в парке'.", "answers": ["we played in the park", "we played at the park"]},
+                {"q": "Поставьте в Past Simple: He (try) to call you.", "answers": ["he tried", "tried"]}
+            ]
+        },
+        "Present Continuous": {
+            "id": "A2_PRESENT_CONTINUOUS",
+            "theory": "Present Continuous: am/is/are + глагол с -ing. Используется для действий, происходящих прямо сейчас. Формула: I am (am) working, He is (is) working, They are (are) working. Отрицание: am/is/are + not + -ing.",
+            "questions": [
+                {"q": "Поставьте в Present Continuous: I (read) a book now.", "answers": ["i'm reading", "i am reading", "am reading"]},
+                {"q": "Поставьте в Present Continuous: She (go) to the shop.", "answers": ["she's going", "she is going", "is going"]},
+                {"q": "Составьте отрицание: They (play) football now.", "answers": ["they aren't playing", "they are not playing", "they're not playing"]},
+                {"q": "Переведите: 'Он сейчас работает'.", "answers": ["he is working now", "he's working now", "he is working"]},
+                {"q": "Спросите: 'Ты слушаешь музыку?'", "answers": ["are you listening to music", "are you listening music", "u r listening to music"]},
+                {"q": "Поставьте в Present Continuous: We (wait) for the bus.", "answers": ["we're waiting", "we are waiting", "are waiting"]},
+                {"q": "Переведите: 'Она танцует'.", "answers": ["she is dancing", "she's dancing"]},
+                {"q": "Поставьте в Present Continuous: The baby (sleep).", "answers": ["the baby is sleeping", "the baby's sleeping", "is sleeping"]},
+                {"q": "Составьте вопрос: 'Вы говорите по-английски?' (сейчас).", "answers": ["are you speaking english", "are you speaking english now"]},
+                {"q": "Переведите: 'Я не смотрю телевизор'.", "answers": ["i'm not watching tv", "i am not watching tv", "i'm not watching television"]}
+            ]
+        },
+        "Adjectives & Comparison": {
+            "id": "A2_ADJECTIVES",
+            "theory": "Сравнение прилагательных: краткие (+er, +est) — tall→taller, long→longest. Длинные (more/most) — beautiful→more beautiful. Исключения: good→better→best, bad→worse→worst, far→farther→farthest.",
+            "questions": [
+                {"q": "Сравнительная форма 'tall':", "answers": ["taller"]},
+                {"q": "Сравнительная форма 'beautiful':", "answers": ["more beautiful"]},
+                {"q": "Переведите: 'Эта книга интереснее'.", "answers": ["this book is more interesting", "this book is more interesting than that one"]},
+                {"q": "Сuperативная форма 'fast':", "answers": ["the fastest", "fastest"]},
+                {"q": "Сравнительная форма 'good':", "answers": ["better"]},
+                {"q": "Переведите: 'Москва больше Петербурга'.", "answers": ["moscow is bigger than st petersburg", "moscow is larger than st petersburg"]},
+                {"q": "Сравнительная форма 'heavy':", "answers": ["heavier"]},
+                {"q": "Сравнительная форма 'expensive':", "answers": ["more expensive"]},
+                {"q": "Переведите: 'Это самый хороший фильм'.", "answers": ["this is the best movie", "this is the best film"]},
+                {"q": "Сравнительная форма 'bad':", "answers": ["worse"]}
+            ]
+        }
+    },
+    "B1": {
+        "Past Simple": {
+            "id": "B1_PAST_SIMPLE",
+            "theory": "Past Simple для завершённых действий в прошлом. Правильные глаголы: +ed. Неправильные — вторая форма (go→went, see→saw).",
+            "questions": [
+                {"q": "Поставьте в Past Simple: I (go) to the cinema yesterday.", "answers": ["went"]},
+                {"q": "Переведите: 'Она купила машину'.", "answers": ["she bought a car", "she bought the car"]},
+                {"q": "Составьте вопрос: 'Ты видел этот фильм?'", "answers": ["did you see this movie", "did you see this film"]},
+                {"q": "Правильный или неправильный глагол 'eat'?", "answers": ["irregular", "неправильный"]},
+                {"q": "Переведите: 'Мы не были в Лондоне'.", "answers": ["we haven't been to london", "we have not been to london", "we didn't go to london", "we did not go to london"]}
+            ]
+        },
+        "Travel": {
+            "id": "B1_TRAVEL",
+            "theory": "Важные фразы для путешествий: 'Where is...?', 'How do I get to...?', 'I'd like to book...'. Аэропорт: check-in, boarding pass, gate.",
+            "questions": [
+                {"q": "Как спросить дорогу: 'Где находится вокзал?'", "answers": ["where is the station", "where's the station", "where is the train station", "where's the train station"]},
+                {"q": "Переведите: 'Мне нужно забронировать отель'.", "answers": ["i need to book a hotel", "i need to reserve a hotel", "i'd like to book a hotel"]},
+                {"q": "Что такое 'boarding pass' по-русски?", "answers": ["посадочный талон"]},
+                {"q": "Спросите: 'Во сколько вылет в Париж?'", "answers": ["what time is the flight to paris", "when is the flight to paris", "what time does the flight to paris leave"]},
+                {"q": "Напишите: 'Я опаздываю на рейс'.", "answers": ["i'm missing my flight", "i'm late for my flight", "i am missing my flight", "i am late for my flight"]}
+            ]
+        },
+        "Present Perfect": {
+            "id": "B1_PRESENT_PERFECT",
+            "theory": "Present Perfect: have/has + V3 (past participle). Используется для опыта (ever/never), результатов с результатом сейчас (just/already/yet), и действий, начавшихся в прошлом и продолжающихся (for/since).",
+            "questions": [
+                {"q": "Поставьте в Present Perfect: I (be) to London twice.", "answers": ["i have been", "i've been", "have been"]},
+                {"q": "Переведите: 'Она уже сделала это'.", "answers": ["she has already done it", "she's already done it"]},
+                {"q": "Present Perfect от 'see':", "answers": ["have seen", "has seen", "i have seen", "she has seen"]},
+                {"q": "Составьте вопрос: 'Ты когда-нибудь был в Японии?' (ever).", "answers": ["have you ever been to japan"]},
+                {"q": "Переведите: 'Я ещё не сделал домашку'.", "answers": ["i haven't done my homework yet", "i have not done my homework yet", "i haven't finished my homework yet"]},
+                {"q": "Поставьте в Present Perfect: She (live) here for 5 years.", "answers": ["she has lived", "she's lived", "has lived"]},
+                {"q": "Переведите: 'Мы никогда не ели суши'.", "answers": ["we have never eaten sushi", "we've never eaten sushi", "we have never tried sushi"]},
+                {"q": "Present Perfect от 'write':", "answers": ["have written", "has written"]},
+                {"q": "Переведите: 'Он потерял ключи'.", "answers": ["he has lost his keys", "he's lost his keys"]},
+                {"q": "Поставьте в Present Perfect: They (not/finish) yet.", "answers": ["they haven't finished yet", "they have not finished yet", "they haven't completed yet"]}
+            ]
+        },
+        "Future (will / going to)": {
+            "id": "B1_FUTURE",
+            "theory": "Will: спонтанные решения, предсказания (I think he will come). Going to: планы намерения (I'm going to study medicine). Формула: will + V, be + going to + V.",
+            "questions": [
+                {"q": "Переведите: 'Я помогу тебе'. (спонтанное решение).", "answers": ["i will help you", "i'll help you"]},
+                {"q": "Поставьте: She ___ (visit) her mum tomorrow.", "answers": ["she is going to visit", "she's going to visit", "she will visit", "she'll visit"]},
+                {"q": "Переведите: 'Я думаю, он придёт'.", "answers": ["i think he will come", "i think he'll come"]},
+                {"q": "Составьте вопрос с 'going to': 'Ты собираешься идти в кино?'", "answers": ["are you going to go to the cinema", "are you going to go to the movies", "are you going to watch a movie"]},
+                {"q": "Поставьте с 'will': I promise I ___ (not/tell) anyone.", "answers": ["i will not tell", "i won't tell"]},
+                {"q": "Переведите: 'Мы планируем купить новую машину'.", "answers": ["we are going to buy a new car", "we're going to buy a new car", "we plan to buy a new car"]},
+                {"q": "Переведите: 'Она будет жить в Берлине'.", "answers": ["she will live in berlin", "she'll live in berlin", "she is going to live in berlin"]},
+                {"q": "Поставьте с 'going to': Look at those clouds! It ___ (rain).", "answers": ["it is going to rain", "it's going to rain"]},
+                {"q": "Переведите: 'Я уверен, ты справишься'.", "answers": ["i'm sure you will succeed", "i'm sure you'll succeed", "i'm sure you will manage"]},
+                {"q": "Составьте отрицание с 'will': I ___ (not/do) it again.", "answers": ["i will not do it again", "i won't do it again"]}
+            ]
+        },
+        "Modal Verbs": {
+            "id": "B1_MODAL_VERBS",
+            "theory": "Модальные глаголы: can (уметь/мочь), must (должен), should (следовало бы), may/might (возможно), need to (нужно). Они не меняются по лицам и используются с инфинитивом без 'to' (кроме need to, have to).",
+            "questions": [
+                {"q": "Переведите: 'Ты должен сделать домашку'.", "answers": ["you must do your homework", "you should do your homework", "you have to do your homework"]},
+                {"q": "Поставьте can/can't: I ___ swim, but I ___ fly.", "answers": ["can, can't", "can, cannot"]},
+                {"q": "Переведите: 'Тебе следует отдохнуть'.", "answers": ["you should rest", "you should take a rest", "you should have a rest"]},
+                {"q": "Составьте вопрос с 'must': 'Мне нужно идти?' (в значении 'обязан ли я').", "answers": ["must i go", "do i have to go"]},
+                {"q": "Переведите: 'Может идти дождь'.", "answers": ["it may rain", "it might rain", "it could rain"]},
+                {"q": "Поставьте should: You ___ (not/eat) so much sugar.", "answers": ["you should not eat", "you shouldn't eat"]},
+                {"q": "Переведите: 'Я могу помочь'.", "answers": ["i can help", "i can help you"]},
+                {"q": "Переведите: 'Надо звонить маме'.", "answers": ["i need to call mum", "i need to call mom", "i have to call mum"]},
+                {"q": "Поставьте can/must: You ___ park here. It's for disabled people only.", "answers": ["you must not", "you mustn't", "you can't", "you cannot"]},
+                {"q": "Переведите: 'Ему следует пойти к врачу'.", "answers": ["he should go to the doctor", "he should see a doctor"]}
+            ]
+        }
+    },
+    "B2": {
+        "Conditionals": {
+            "id": "B2_CONDITIONALS",
+            "theory": "Conditional Zero: if + present, present. First: if + present, will + V. Second: if + past simple, would + V. Third: if + past perfect, would have + V3.",
+            "questions": [
+                {"q": "Дополните: If it rains, I ___ (take) an umbrella.", "answers": ["will take", "'ll take"]},
+                {"q": "Second conditional: If I ___ (be) rich, I would travel.", "answers": ["were", "was"]},
+                {"q": "Переведите: 'Если бы я знал, я бы сказал'.", "answers": ["if i knew, i would tell", "if i knew, i'd tell", "if i had known, i would have told"]},
+                {"q": "Third conditional: If she ___ (study), she would have passed.", "answers": ["had studied"]},
+                {"q": "Составьте предложение с First Conditional.", "answers": []}
+            ]
+        },
+        "Essay Writing": {
+            "id": "B2_ESSAY",
+            "theory": "Структура эссе: Introduction (теза + план), Body paragraphs (аргумент + пример), Conclusion (вывод). Используйте linkers: furthermore, however, on the other hand.",
+            "questions": [
+                {"q": "Напишите введение к эссе на тему 'Technology in education'.", "answers": []},
+                {"q": "Используйте 'however' в предложении о плюсах интернета.", "answers": []},
+                {"q": "Напишите заключение к эссе о здоровье.", "answers": []},
+                {"q": "Используйте 'furthermore' для аргумента за экологию.", "answers": []},
+                {"q": "Напишите аргумент 'против' удалённой работы.", "answers": []}
+            ]
+        },
+        "Passive Voice": {
+            "id": "B2_PASSIVE",
+            "theory": "Passive Voice: be + V3 (past participle). Используется когда важно действие, а не исполнитель. Present Simple Passive: am/is/are + V3. Past Simple Passive: was/were + V3. Present Perfect Passive: have/has been + V3.",
+            "questions": [
+                {"q": "Поставьте в Passive Voice (Present Simple): They build houses. → Houses ___ .", "answers": ["houses are built", "are built"]},
+                {"q": "Поставьте в Passive Voice (Past Simple): She wrote this book. → This book ___ .", "answers": ["this book was written", "was written"]},
+                {"q": "Переведите: 'Этот мост был построен в 1990 году'.", "answers": ["this bridge was built in 1990", "this bridge was constructed in 1990"]},
+                {"q": "Поставьте в Passive Voice (Present Perfect): They have solved the problem. → The problem ___ .", "answers": ["the problem has been solved", "has been solved"]},
+                {"q": "Переведите: 'Пища готовится каждый день'.", "answers": ["food is cooked every day", "the food is prepared every day", "food is prepared daily"]},
+                {"q": "Поставьте в Passive Voice: Someone stole my phone. → My phone ___ .", "answers": ["my phone was stolen", "was stolen"]},
+                {"q": "Переведите: 'Эта песня была спета ею'.", "answers": ["this song was sung by her", "this song was performed by her"]},
+                {"q": "Поставьте в Passive Voice (Future): They will deliver the package tomorrow. → The package ___ .", "answers": ["the package will be delivered tomorrow", "will be delivered"]},
+                {"q": "Переведите: 'Решение должно быть принято сейчас'.", "answers": ["the decision must be made now", "the decision has to be made now", "a decision must be made immediately"]},
+                {"q": "Поставьте в Passive Voice: Someone has broken the window. → The window ___ .", "answers": ["the window has been broken", "has been broken"]}
+            ]
+        },
+        "Linkers & Discourse Markers": {
+            "id": "B2_LINKERS",
+            "theory": "Связки для связной речи: however (однако), furthermore/besides (кроме того), therefore/as a result (следовательно), although/even though (хотя), despite/in spite of (несмотря на), meanwhile (тем временем), otherwise (в противном случае), in addition (в дополнение).",
+            "questions": [
+                {"q": "Переведите: 'Однако, я не согласен'.", "answers": ["however, i disagree", "however i disagree", "but i disagree"]},
+                {"q": "Вставьте связку: '___ , we decided to stay home.' (поэтому/следовательно).", "answers": ["therefore", "as a result", "so", "thus"]},
+                {"q": "Переведите: 'Кроме того, это слишком дорого'.", "answers": ["furthermore, it's too expensive", "besides, it's too expensive", "in addition, it's too expensive"]},
+                {"q": "Вставьте связку: '___ the rain, we went out.' (несмотря на).", "answers": ["despite", "in spite of"]},
+                {"q": "Переведите: 'Хотя он устал, он продолжал работать'.", "answers": ["although he was tired, he kept working", "though he was tired, he continued working", "even though he was tired, he kept working"]},
+                {"q": "Вставьте связку: 'Study hard, ___ you will fail.' (в противном случае).", "answers": ["otherwise", "or"]},
+                {"q": "Переведите: 'Тем временем, она готовила ужин'.", "answers": ["meanwhile, she was cooking dinner", "meanwhile she was cooking dinner"]},
+                {"q": "Вставьте связку: '___ being tired, he went to work.' (несмотря на).", "answers": ["despite", "in spite of"]},
+                {"q": "Переведите: 'В дополнение к этому, он говорит на трёх языках'.", "answers": ["in addition to this, he speaks three languages", "besides, he speaks three languages", "furthermore, he speaks three languages"]},
+                {"q": "Вставьте связку: 'The weather was bad, ___ we had a great time.' (однако).", "answers": ["however", "but", "nevertheless", "nonetheless"]}
+            ]
+        }
+    }
+}
